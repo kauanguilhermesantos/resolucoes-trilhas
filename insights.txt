@@ -1,0 +1,26 @@
+/* Exemplo de chamada da página HOME */
+
+**Descubra, Pratique e Domine: Soluções de Exercícios ao Seu Alcance!**
+
+🚀 **Explore uma variedade de exercícios** - Encontre desafios que testarão suas habilidades e expandirão seu conhecimento.
+✅ **Pratique com propósito** - Aplique o que aprendeu e melhore através da prática focada.
+🔍 **Confira as soluções detalhadas** - Entenda as respostas passo a passo e aprenda as melhores práticas.
+
+**Comece sua jornada de aprendizado agora e eleve suas habilidades a um novo patamar!**
+
+/* Ideia de Paleta 1 */
+
+Primária: Azul Escuro (#003366) - Confiável e profissional, ótimo para fundo ou cabeçalhos.
+Secundária: Verde Esmeralda (#50C878) - Cor vibrante para botões de ação ou destaques.
+Terciária: Cinza Claro (#D3D3D3) - Para fundos de código ou áreas de texto.
+Acento: Amarelo Canário (#FFEF00) - Para chamar atenção a elementos interativos ou notificações.
+Texto: Branco (#FFFFFF) ou Preto (#000000) - Dependendo do fundo, para garantir legibilidade.
+
+
+/* Ideia de Paleta 2 */
+
+Azul Cérebro: #0000FF (azul intenso)
+Verde Lógica: #008000 (verde)
+Amarelo Conhecimento: #FFFF00 (amarelo)
+Cinza Neurônio: #808080 (cinza)
+Violeta Intuição: #8A2BE2 (violeta)
