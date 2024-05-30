@@ -24,3 +24,11 @@ Verde Lógica: #008000 (verde)
 Amarelo Conhecimento: #FFFF00 (amarelo)
 Cinza Neurônio: #808080 (cinza)
 Violeta Intuição: #8A2BE2 (violeta)
+
+/* Ideia de Paleta 3 */
+Verde: #76AF28
+Azul: #03445E
+#024959
+#84BF2C
+#73A626
+#0D0D0D
