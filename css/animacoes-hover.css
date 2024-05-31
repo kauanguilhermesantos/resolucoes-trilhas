@@ -1,0 +1,19 @@
+/* HOVER DO MENU DE NAVEGAÇÃO */
+.listaMenu .botoesDoMenu::after {
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: #024959;
+    margin: auto;
+    display: block;
+    /* margin-top: 8px; */
+}
+
+.listaMenu .botoesDoMenu:hover::after {
+    width: 100%;
+    transition: width 0.3s linear;
+}
+
+.listaMenu .botoesDoMenu:hover {
+    color: #024959;
+}
