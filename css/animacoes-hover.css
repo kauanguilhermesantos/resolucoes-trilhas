@@ -3,7 +3,7 @@
     content: "";
     width: 0;
     height: 3px;
-    background-color: #024959;
+    background-color: #76AF28;
     margin: auto;
     display: block;
     /* margin-top: 8px; */
@@ -15,5 +15,26 @@
 }
 
 .listaMenu .botoesDoMenu:hover {
-    color: #024959;
+    /* color: #024959; */
+    /* color: #84BF2C; */
+    /* color: #73A626; */
+    color: #76AF28;
+}
+
+/* EFEITO DE DIGITAÇÃO DO HOME */
+.tituloHome::after {
+    content: "|";
+    animation: piscar 0.6s infinite;
+}
+
+@keyframes piscar {
+    0% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
 }

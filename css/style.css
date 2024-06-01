@@ -2,11 +2,11 @@
 
 .barraDeNavegacao {
     display: flex;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #0D0D0D;
-    padding: 4px 60px 4px 60px;
+    padding: 4px 80px 4px 80px;
 }
 
 .logoComTexto {
@@ -21,18 +21,69 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 20px;
-    color: #0D0D0D;
+    color: #03445E;
 }
 
 .listaMenu {
     margin-right: 30px;
     display: flex;
-    margin-right: 30px;
-
 }
 
 .botoesDoMenu {
     /* border: 1px solid red; */
     padding: 4px;
     align-items: center;
+}
+
+.container {
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    /* margin: 30px auto; */
+    padding: 80px;
+    /* background-color: #c8c8c8; */
+}
+
+.ilustracaoHome {
+    border: 1px solid red;
+    /* width: 700px; */
+    /* margin: 60px; */
+}
+.chamadaHome {
+    border: 1px solid red;   
+    /* margin: 60px; */
+}
+
+.tituloHome {
+    border: 1px solid red;
+    margin-bottom: 60px;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #023244;
+}
+
+.textoHome {
+    border: 1px solid red;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #03445E;
+}
+
+.iconsLinguagensHome {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconsLinguagensHome {
+    display: flex;
+    gap: 20px;
+}
+
+.iconsLinguagensHome > img  {
+    border: 1px solid red;
 }
