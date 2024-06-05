@@ -1,12 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Lato:wght@400;700&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap');
 
+body {
+    /* background-color: #bcbcbc; */
+    background-color: #8080803b;
+}
+
 .barraDeNavegacao {
+    background-color: #9FB9BF;
     display: flex;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #0D0D0D;
+    border-bottom: 1px solid #8080803b;
     padding: 4px 80px 4px 80px;
+    /* background: linear-gradient(90deg, #ffffff, #03445E 0%, #ffffff) */
 }
 
 .logoComTexto {
@@ -36,27 +43,27 @@
 }
 
 .container {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     align-items: center;
     gap: 90px;
     /* margin: 30px auto; */
-    padding: 80px;
+    padding: 10rem 5rem 10rem 5rem;
     /* background-color: #c8c8c8; */
 }
 
 .ilustracaoHome {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     /* width: 700px; */
     /* margin: 60px; */
 }
 .chamadaHome {
-    border: 1px solid red;   
+    /* border: 1px solid red;    */
     /* margin: 60px; */
 }
 
 .tituloHome {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-bottom: 60px;
     font-family: 'Lato', sans-serif;
     font-size: 30px;
@@ -65,7 +72,7 @@
 }
 
 .textoHome {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     font-family: 'Lato', sans-serif;
     font-size: 18px;
     font-weight: 400;
@@ -77,13 +84,31 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.iconsLinguagensHome {
-    display: flex;
     gap: 20px;
 }
 
 .iconsLinguagensHome > img  {
+    /* border: 1px solid red; */
+}
+
+.rodape {
+    /* border: 1px solid red; */
+    padding: 10px;
+    background-color: #9FB9BF;
+    /* color: #f2f2f2f2; */
+    color: #03445E;
+    border: 1px solid #8080803b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.linkLinkedIn:hover {
+    text-decoration: underline;
+}
+
+.botaoVoltar {
     border: 1px solid red;
+    margin: 1rem 5rem;
 }
