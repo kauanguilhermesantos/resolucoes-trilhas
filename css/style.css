@@ -4,7 +4,10 @@ body {
     /* background-color: #bcbcbc; */
     /* background-color: #8080803b; */
     /* background: url(/assets/imagens/background1.png) no-repeat top center/cover; */
+    /* background: linear-gradient(120deg, #76A360 1%, #253a80 20%, #76A360 99%); */
+    /* background: linear-gradient(45deg, #265C8B 9%, #fff 1%); */
     /* background-size: cover; */
+    /* background: linear-gradient(310deg, rgba(67,97,84,1) 0%, rgba(60,81,146,1) 100%); */
     background-color: #F9FBFC;
     height: 100vh;
 }
@@ -15,7 +18,7 @@ body {
     /* border: 1px solid red; */
     justify-content: space-between;
     align-items: center;
-    /* border-bottom: 1px solid #8080803b; */
+    border-bottom: 1px solid #8080803b;
     padding: 4px 80px 4px 80px;
     /* background: linear-gradient(90deg, #ffffff, #03445E 0%, #ffffff) */
 }
@@ -110,9 +113,50 @@ body {
 
 .linkLinkedIn:hover {
     text-decoration: underline;
+    cursor: pointer;
 }
 
+/* PÁGINA CRIADOR */
 .botaoVoltar {
     border: 1px solid red;
     margin: 1rem 5rem;
+}
+.voltar {
+    border: 1px solid red;
+    margin-right: 1250px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-family: 'Lato', sans-serif;
+    color: #03445E;
+}
+
+.iconVoltar {
+    width: 30px;
+    height: 30px;
+    color: #023244;
+}
+
+a.voltar:hover {
+    color: #76AF28;
+}
+
+.containerCriador {
+    border: 1px solid red;
+    margin: 0 80px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.containerCriador > img {
+    border: 1px solid red;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+.descricaoCriador {
+    border: 1px solid red;
 }
