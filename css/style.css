@@ -138,21 +138,25 @@ body {
     align-items: center;
     gap: 6px;
     font-family: 'Lato', sans-serif;
-    color: #03445E;
+    color: #cacaca;
 }
 
 .iconVoltar {
     width: 30px;
     height: 30px;
-    color: #023244;
+    color: #cacaca;
 }
 
 a.voltar:hover {
     color: #76AF28;
 }
 
+.botaoVoltar:hover {
+    color: #76AF28;
+}
+
 .containerCriador {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 90px 80px;
     padding: 40px 80px;
     display: flex;
@@ -160,34 +164,42 @@ a.voltar:hover {
     gap: 40px;
     background-color: #cacaca;
     border-radius: 16px;
+    box-shadow: 3px 3px 5px #0000004d;
 }
 
 .containerCriador > img {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     border-radius: 50%;
     width: 300px;
     height: 300px;
 }
 
 .descricaoCriador {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 40px;   
 }
 
 .NomeCriador {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-bottom: 20px;
     font-family: var(--fonte-primaria);
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 500;
     color: #03445E;
 }
 
 .paragrafoCriador {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     font-family: var(--fonte-secundaria);
     font-size: 16px;
     font-weight: 400;
+    text-align: justify;
+    line-height: 24px;
+}
+
+.paragrafoCriador > strong {
+    color: #03445E;
+    font-weight: 700;
 }
 
 .redesSociais {
@@ -197,7 +209,7 @@ a.voltar:hover {
 }
 
 .textoRedesSociais {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-bottom: 10px;
     font-family: var(--fonte-primaria);
     font-size: 18px;
@@ -210,6 +222,11 @@ a.voltar:hover {
 }
 
 .iconRedesSociais {
-    width: 24px;
-    height: 24px;
+    width: 32px;
+    height: 32px;
+}
+
+.iconRedesSociais:hover {
+    width: 36px;
+    height: 36px;
 }
