@@ -247,3 +247,13 @@ body {
     color: var(--cor-verde);
     filter: drop-shadow(0 0 20px var(--cor-verde));
 }
+
+::-webkit-scrollbar {
+    width: 0.8rem;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 2rem;
+    background-color: var(--cor-branca);
+    width: 0.8rem;
+}
