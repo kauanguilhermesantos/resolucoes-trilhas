@@ -1,8 +1,8 @@
-var texto = "Descubra o mundo da programação aqui!";
-var atraso = 100;
-var textoElemento = document.querySelector(".tituloHome");
+let texto = "Descubra o mundo da programação aqui!";
+let atraso = 100;
+let textoElemento = document.querySelector(".tituloHome");
 
-var contadorDeLetras = 0;
+let contadorDeLetras = 0;
 
 function escreverTexto() {
   if (contadorDeLetras < texto.length) {
