@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Lato:wght@400;700&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap');
 
 :root {
+    font-size: 62.5%;
     --fonte-primaria: 'Poppins', sans-serif;
     --fonte-secundaria: 'Lato', sans-serif;
 }
@@ -26,15 +27,15 @@ body {
     /* border: 1px solid red; */
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #8080803b;
-    padding: 4px 80px 4px 80px;
+    border-bottom: 0.1rem solid #8080803b;
+    padding: 0.4rem 8rem 0.4rem 8rem;
     /* background: linear-gradient(90deg, #ffffff, #03445E 0%, #ffffff) */
 }
 
 .logoComTexto {
-    width: 260px;
+    width: 26rem;
     /* border: 1px solid red; */
-    padding: 10px;
+    padding: 1rem;
 }
 
 .menu {
@@ -42,18 +43,18 @@ body {
     display: flex;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 2rem;
     color: #cacaca;
 }
 
 .listaMenu {
-    margin-right: 30px;
+    margin-right: 3rem;
     display: flex;
 }
 
 .botoesDoMenu {
     /* border: 1px solid red; */
-    padding: 4px;
+    padding: 0.4rem;
     align-items: center;
 }
 
@@ -61,8 +62,8 @@ body {
     /* border: 1px solid red; */
     display: flex;
     align-items: center;
-    gap: 90px;
-    /* margin: 30px auto; */
+    gap: 9rem;
+    margin: 3rem auto;
     padding: 10rem 5rem 10rem 5rem;
     /* background-color: #c8c8c8; */
 }
@@ -79,9 +80,9 @@ body {
 
 .tituloHome {
     /* border: 1px solid red; */
-    margin-bottom: 60px;
+    margin-bottom: 6rem;
     font-family: 'Lato', sans-serif;
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: 700;
     color: #cacaca;
 }
@@ -89,19 +90,19 @@ body {
 .textoHome {
     /* border: 1px solid red; */
     font-family: 'Lato', sans-serif;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 400;
     color: #cacaca;
-    line-height: 24px;
+    line-height: 2.4rem;
     text-align: justify;
 }
 
 .iconsLinguagensHome {
-    margin-top: 60px;
+    margin-top: 6rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 2rem;
 }
 
 .iconsLinguagensHome > img  {
@@ -110,15 +111,16 @@ body {
 
 .rodape {
     /* border: 1px solid red; */
-    padding: 20px;
+    padding: 2rem;
     /* background-color: #9FB9BF; */
     /* color: #f2f2f2f2; */
     color: #cacaca;
-    border: 1px solid #8080803b;
+    border: 0.1rem solid #8080803b;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Lato', sans-serif;
+    font-size: 1.4rem;
 }
 
 .linkLinkedIn:hover {
@@ -133,17 +135,18 @@ body {
 }
 .voltar {
     border: 1px solid red;
-    margin-right: 1250px;
+    margin-right: 125rem;
     display: flex;
     align-items: center;
-    gap: 6px;
+    gap: 0.6rem;
     font-family: 'Lato', sans-serif;
     color: #cacaca;
+    font-size: 1.4rem;
 }
 
 .iconVoltar {
-    width: 30px;
-    height: 30px;
+    width: 3rem;
+    height: 3rem;
     color: #cacaca;
 }
 
@@ -157,33 +160,33 @@ a.voltar:hover {
 
 .containerCriador {
     /* border: 1px solid red; */
-    margin: 90px 80px;
-    padding: 40px 80px;
+    margin: 9rem 8rem;
+    padding: 4rem 8rem;
     display: flex;
     justify-content: space-evenly;
-    gap: 40px;
+    gap: 4rem;
     background-color: #cacaca;
-    border-radius: 16px;
-    box-shadow: 3px 3px 5px #0000004d;
+    border-radius: 1.6rem;
+    box-shadow: 0.3rem 0.3rem 0.5rem #0000004d;
 }
 
 .containerCriador > img {
     /* border: 1px solid red; */
     border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    width: 30rem;
+    height: 30rem;
 }
 
 .descricaoCriador {
     /* border: 1px solid red; */
-    padding: 40px;   
+    padding: 4rem;   
 }
 
 .NomeCriador {
     /* border: 1px solid red; */
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
     font-family: var(--fonte-primaria);
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: 500;
     color: #03445E;
 }
@@ -191,10 +194,10 @@ a.voltar:hover {
 .paragrafoCriador {
     /* border: 1px solid red; */
     font-family: var(--fonte-secundaria);
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 400;
     text-align: justify;
-    line-height: 24px;
+    line-height: 2.4rem;
 }
 
 .paragrafoCriador > strong {
@@ -203,30 +206,33 @@ a.voltar:hover {
 }
 
 .redesSociais {
-    border: 1px solid red;
-    margin-top: 40px;
+    /* border: 1px solid red; */
+    margin-top: 4rem;
     text-align: center;
 }
 
 .textoRedesSociais {
     /* border: 1px solid red; */
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
     font-family: var(--fonte-primaria);
-    font-size: 18px;
+    font-size: 2.2rem;
+    color: #03445E;
+    font-weight: 500;
 }
 
 .listaRedesSociais {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 1rem;
 }
 
 .iconRedesSociais {
-    width: 32px;
-    height: 32px;
+    width: 2.8rem;
+    height: 2.8rem;
+    transition: 0.2s ease-in-out;
 }
 
 .iconRedesSociais:hover {
-    width: 36px;
-    height: 36px;
+    transform: scale(1.2);
+    color: #76AF28;
 }
