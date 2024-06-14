@@ -4,20 +4,23 @@
     font-size: 62.5%;
     --fonte-primaria: 'Poppins', sans-serif;
     --fonte-secundaria: 'Lato', sans-serif;
+    --cor-verde: #76AF28;
+    --cor-branca: #cacaca;
+    --cor-azul: #03445E;
 }
 
 body {
     /* background-color: #bcbcbc; */
     /* background-color: #8080803b; */
-    background: url(/assets/imagens/Design\ sem\ nome\ \(2\).png) no-repeat top center/cover;
+    /* background: url(/assets/imagens/Design\ sem\ nome\ \(2\).png) no-repeat top center/cover; */
     /* background: linear-gradient(120deg, #76A360 1%, #253a80 20%, #76A360 99%); */
     /* background: linear-gradient(45deg, #265C8B 9%, #fff 1%); */
     /* background-size: cover; */
     /* background: linear-gradient(310deg, #436154 0%, rgba(60,81,146,1) 100%); */
-    background-color: #F9FBFC;
+    /* background-color: #F9FBFC; */
     /* color: e9edf0; */
     height: 100vh;
-    background: radial-gradient(circle, rgba(67,97,84,1) 25%, rgba(60,81,146,1) 100%);
+    background: radial-gradient(circle, #436154 25%, #3c5192 100%);
 }
     
 .barraDeNavegacao {
@@ -41,10 +44,10 @@ body {
 .menu {
     /* border: 1px solid red; */
     display: flex;
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--fonte-primaria);
     font-weight: 400;
     font-size: 2rem;
-    color: #cacaca;
+    color: var(--cor-branca);
 }
 
 .listaMenu {
@@ -81,18 +84,18 @@ body {
 .tituloHome {
     /* border: 1px solid red; */
     margin-bottom: 6rem;
-    font-family: 'Lato', sans-serif;
+    font-family: var(--fonte-secundaria);
     font-size: 3rem;
     font-weight: 700;
-    color: #cacaca;
+    color: var(--cor-branca);
 }
 
 .textoHome {
     /* border: 1px solid red; */
-    font-family: 'Lato', sans-serif;
+    font-family: var(--fonte-secundaria);
     font-size: 1.8rem;
     font-weight: 400;
-    color: #cacaca;
+    color: var(--cor-branca);
     line-height: 2.4rem;
     text-align: justify;
 }
@@ -114,12 +117,12 @@ body {
     padding: 2rem;
     /* background-color: #9FB9BF; */
     /* color: #f2f2f2f2; */
-    color: #cacaca;
+    color: var(--cor-branca);
     border: 0.1rem solid #8080803b;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Lato', sans-serif;
+    font-family: var(--fonte-secundaria);
     font-size: 1.4rem;
 }
 
@@ -139,23 +142,23 @@ body {
     display: flex;
     align-items: center;
     gap: 0.6rem;
-    font-family: 'Lato', sans-serif;
-    color: #cacaca;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-branca);
     font-size: 1.4rem;
 }
 
 .iconVoltar {
     width: 3rem;
     height: 3rem;
-    color: #cacaca;
+    color: var(--cor-branca);
 }
 
 a.voltar:hover {
-    color: #76AF28;
+    color: var(--cor-verde);
 }
 
 .botaoVoltar:hover {
-    color: #76AF28;
+    color: var(--cor-verde);
 }
 
 .containerCriador {
@@ -165,7 +168,7 @@ a.voltar:hover {
     display: flex;
     justify-content: space-evenly;
     gap: 4rem;
-    background-color: #cacaca;
+    background-color: #f5f5f5;
     border-radius: 1.6rem;
     box-shadow: 0.3rem 0.3rem 0.5rem #0000004d;
 }
@@ -188,7 +191,7 @@ a.voltar:hover {
     font-family: var(--fonte-primaria);
     font-size: 2.4rem;
     font-weight: 500;
-    color: #03445E;
+    color: var(--cor-azul);
 }
 
 .paragrafoCriador {
@@ -201,7 +204,7 @@ a.voltar:hover {
 }
 
 .paragrafoCriador > strong {
-    color: #03445E;
+    color: var(--cor-azul);
     font-weight: 700;
 }
 
@@ -216,7 +219,7 @@ a.voltar:hover {
     margin-bottom: 1rem;
     font-family: var(--fonte-primaria);
     font-size: 2.2rem;
-    color: #03445E;
+    color: var(--cor-azul);
     font-weight: 500;
 }
 
@@ -234,5 +237,6 @@ a.voltar:hover {
 
 .iconRedesSociais:hover {
     transform: scale(1.2);
-    color: #76AF28;
+    color: var(--cor-verde);
+    filter: drop-shadow(0 0 20px var(--cor-verde));
 }
