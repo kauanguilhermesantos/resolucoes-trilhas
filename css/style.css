@@ -130,11 +130,11 @@ body {
 
 /* PÁGINA CRIADOR */
 .botaoVoltar {
-    border: 1px solid red;
-    margin: 1rem 5rem;
+    /* border: 1px solid red; */
+    margin: 1rem 8rem;
 }
 .voltar {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-right: 125rem;
     display: flex;
     align-items: center;
@@ -142,6 +142,7 @@ body {
     font-family: 'Lato', sans-serif;
     color: #cacaca;
     font-size: 1.6rem;
+    transition: 0.2s ease-in-out;
 }
 
 .iconVoltar {
@@ -150,17 +151,19 @@ body {
     color: #cacaca;
 }
 
-a.voltar:hover {
+.voltar:hover {
+    transform: scale(1);
     color: #76AF28;
+    filter: drop-shadow(0 0 20px #76AF28);    
 }
 
 .fa-sharp {
-    font-size: 2.6rem;
+    font-size: 2.4rem;
 }
 
-.botaoVoltar:hover {
+/* .botaoVoltar:hover {
     color: #76AF28;
-}
+} */
 
 .containerCriador {
     /* border: 1px solid red; */
@@ -169,7 +172,7 @@ a.voltar:hover {
     display: flex;
     justify-content: space-evenly;
     gap: 4rem;
-    background-color: #cacaca;
+    background-color: #f5f5f5;
     border-radius: 1.6rem;
     box-shadow: 0.3rem 0.3rem 0.5rem #0000004d;
 }
@@ -239,4 +242,5 @@ a.voltar:hover {
 .iconRedesSociais:hover {
     transform: scale(1.2);
     color: #76AF28;
+    filter: drop-shadow(0 0 20px #76AF28);
 }
