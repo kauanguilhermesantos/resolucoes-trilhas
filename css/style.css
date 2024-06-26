@@ -257,3 +257,25 @@ body {
     background-color: var(--cor-branca);
     width: 0.8rem;
 }
+
+.containerFiltro {
+    border: 1px solid red;
+    margin: 2rem 8rem;
+    padding: 1rem 2rem;
+    background-color: var(--cor-branca);
+    border-radius: 3rem;
+    color: var(--cor-azul);
+    font-family: var(--fonte-secundaria);
+    font-size: 1.2rem;
+    box-shadow: 0.3rem 0.3rem 0.5rem #0000004d;
+}
+
+.filtroExercicios {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+}
+
+.filtroExercicios .liguagens select {
+    width: 100%;
+}
