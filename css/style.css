@@ -259,23 +259,72 @@ body {
 }
 
 .containerFiltro {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 2rem 8rem;
     padding: 1rem 2rem;
     background-color: var(--cor-branca);
     border-radius: 3rem;
     color: var(--cor-azul);
-    font-family: var(--fonte-secundaria);
-    font-size: 1.2rem;
+    font-family: var(--fonte-primaria);
+    font-size: 1.4rem;
     box-shadow: 0.3rem 0.3rem 0.5rem #0000004d;
 }
 
 .filtroExercicios {
     display: flex;
-    gap: 1rem;
-    width: 100%;
+    align-items: center;
+    gap: 2rem;
 }
 
-.filtroExercicios .liguagens select {
-    width: 100%;
+#select {
+    padding: 0.4rem;
+    border-radius: 2rem;
+}
+
+.botaoFiltro {
+    /* border: 1px solid red; */
+    padding: 0.4rem;
+    border-radius: 2rem;
+    background: var(--cor-verde);
+    /* border: 0.1rem solid var(--cor-azul); */
+}
+
+.botaoFiltro:hover {
+    background-color: var(--cor-azul);
+    color: var(--cor-branca);
+    /* border: 0.1rem solid var(--cor-verde); */
+    transition: 0.2s ease-in-out;
+}
+
+.containerExercicios {
+    /* border: 1px solid red; */
+    margin: 2rem 8rem;
+    padding: 1rem;
+    display: grid;
+    column-gap: 1%;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.cardQuestao {
+    /* border: 1px solid red; */
+    background-color: var(--cor-branca);
+    box-shadow: 0.3rem 0.3rem 0.5rem #0000004d;
+    border-radius: 2rem;
+    height: 34rem;
+    padding: 2rem;
+    text-align: justify;
+}
+
+.tituloQuestao {
+    border: 1px solid red;
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+    text-align: left;
+    font-family: var(--fonte-primaria);
+}
+
+.contextoQuestao {
+    border: 1px solid red;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
 }
