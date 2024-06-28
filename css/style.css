@@ -323,6 +323,13 @@ body {
     height: 12rem;
     padding: 2rem;
     /* text-align: justify; */
+    transition: 0.2s ease-in-out;
+}
+
+.cardQuestao:hover {
+    transition: 0.2s ease-in-out;
+    transform: scale(1.02);
+    filter: drop-shadow(0 0 20px var(--cor-verde));   
 }
 
 .tituloQuestao {
