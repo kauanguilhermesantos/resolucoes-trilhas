@@ -36,7 +36,7 @@
             <form class="filtroExercicios">
                 <div class="linguagens">
                     <label for="">Linguagem</label>
-                    <select name="escolhaLinguagem" id="select">
+                    <select name="escolhaLinguagem" class="select">
                         <option value="padrao">Selecione...</option>
                         <option value="c">C</option>
                         <option value="javascript">JavaScript</option>
@@ -44,7 +44,7 @@
                 </div>
                 <div class="tema">
                     <label for="">Tema</label>
-                    <select name="escolhaTemaC" id="select">
+                    <select name="escolhaTemaC" class="select">
                         <option value="padrao">Selecione...</option>
                         <option value="condicionais">Estruturas de condições</option>
                         <option value="repeticoes">Estruturas de repetições</option>
@@ -55,8 +55,17 @@
                         <option value="ponteiros">Ponteiros</option>
                     </select>
                 </div>
-                <div class="botaoFiltro">
-                    <button>Pesquisar</button>
+                <div>
+                    <label for="">Dificuldade</label>
+                    <select name="dificuldadeQuestao" class="select">
+                        <option value="padrao">Selecione...</option>
+                        <option value="facil">Fácil</option>
+                        <option value="medio">Médio</option>
+                        <option value="dificil">Difícil</option>
+                    </select>
+                </div>
+                <div>
+                    <button class="botaoFiltro">Pesquisar</button>
                 </div>
             </form>
         </div>
