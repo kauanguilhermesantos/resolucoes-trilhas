@@ -319,15 +319,16 @@ body {
 }
 
 .tituloQuestao {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     font-size: 1.6rem;
     /* margin-bottom: 2rem; */
     text-align: left;
     font-family: var(--fonte-primaria);
+    color: var(--cor-azul);
 }
 
-.questao {
-    border: 1px solid red;
+hr {
+    color: var(--cor-branca);
 }
 
 .contextoQuestao, .comandoQuestao, .comandoQuestao ul{
@@ -338,12 +339,24 @@ body {
 }
 
 .rodapeCardQuestoes {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: var(--fonte-secundaria);
+    /* color: var(--cor-azul); */
+    font-size: 1.2rem;
 }
 
-.linguagemQuestao {
+.rodapeCardQuestoes .linguagemQuestao {
     width: 3rem;
+}
+
+.rodapeCardQuestoes .temaQuestao {
+    /* border: 1px solid var(--cor-azul); */
+    color: var(--cor-azul);
+}
+
+.rodapeCardQuestoes .dificuldadeQuestao {
+    color: var(--cor-verde);
 }
